@@ -6,4 +6,4 @@ before_install:
   - docker build -t MyProject -f Dockerfile.dev .
 
 script:
-  - docker run nuray npm run test -- --coverage
+  - docker run MyProject npm run test -- --coverage
